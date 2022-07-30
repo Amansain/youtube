@@ -6,7 +6,7 @@ from .config import Config
 class UtubeBot(Client):
     def __init__(self):
         super().__init__(
-            NAME=Config.NAME,
+            name=Config.NAME,
             bot_token=Config.BOT_TOKEN,
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
